@@ -1,0 +1,33 @@
+{
+  "name": "@alpine-code/nodejs-helm",
+  "version": "0.4.0",
+  "description": "NodeJS wrapper for the helm.sh package manager for Kubernetes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpine-code/nodejs-helm.git"
+},
+"publishConfig": {
+    "access": "public"
+},
+"author": "ilzenzo",
+"license": "MIT",
+"bugs": {
+    "url": "https://github.com/alpine-code/nodejs-helm/issues"
+},
+"homepage": "https://github.com/alpine-code/nodejs-helm#readme",
+"keywords": [
+  "helm",
+  "helm3",
+  "nodejs-helm",
+  "node-helm",
+  "yaml",
+  "kubectl"
+],
+  "dependencies": {
+    "yaml": "^1.10.0"
+  }
+}
