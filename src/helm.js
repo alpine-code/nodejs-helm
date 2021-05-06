@@ -142,6 +142,16 @@ module.exports = class Helm {
         this.executeCommandByArguments(options, command, done);
     }
 
+    repo(options, done) {
+        let command = ['repo'];
+        if (options.subCommand == null) {
+            throw new Error("Missing parameter 'subcommand'");
+        }
+        command.push(options.subCommand);
+
+        this.executeCommandByArguments(options, command, done);
+    }
+
     history(options, done) {
         let command = ['history'];
         if (options.releaseName == null) {

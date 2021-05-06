@@ -1,6 +1,6 @@
 {
   "name": "@alpine-code/nodejs-helm",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "NodeJS wrapper for the helm.sh package manager for Kubernetes.",
   "main": "index.js",
   "scripts": {
